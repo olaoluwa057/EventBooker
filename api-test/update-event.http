@@ -1,0 +1,11 @@
+PUT   http://localhost:8080/events/1
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRocmlkQGV4YW1wbGUuY29tIiwiZXhwIjoxNzM1OTkxNjI5LCJ1c2VyX2lkIjozfQ.j7e4hqLlWUyIQNr1RSdPC-AQpgP8yOmeuvPkQ_S7HD8
+
+{
+    "name":"Upgrade-name-1",
+    "description":"Upgrade Test description-1",
+    "location":"Upgrade: test location-1",
+    "dateTime": "2025-01-01T00:00:00Z"
+
+}

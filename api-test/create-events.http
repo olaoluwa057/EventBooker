@@ -1,0 +1,13 @@
+POST  http://localhost:8080/events
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InNlY29uZEBleGFtcGxlLmNvbSIsImV4cCI6MTczNTk4OTczMiwidXNlcl9pZCI6Mn0.mY3wcwUDipR320IcCv0BH3uIuO2XxWwGpstKyIt_BqI
+
+
+
+{
+    "name":"Test name-adminteer",
+    "description":"Test description-00",
+    "location":"test location-1",
+    "dateTime": "2025-01-01T00:00:00Z"
+
+}
